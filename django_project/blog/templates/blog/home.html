@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PAGE 1</title>
+</head>
+<body>
+        <form action="showResult" method="POST">
+            {% csrf_token%}
+
+            First Name: <input name="fname">
+            <br><br>
+
+            Last Name: <input name="lname">
+            <br><br>
+
+            <input type="Submit" value="Enter">
+
+        </form>
+</body>
+</html>
